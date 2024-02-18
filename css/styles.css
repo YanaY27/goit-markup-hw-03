@@ -34,7 +34,6 @@ img {
 }
 
 header {
-    padding: 24px 0;
     border-bottom: 1px solid #e7e9fc;
 
 }
@@ -250,7 +249,6 @@ header {
     letter-spacing: 0.02em;
     color: #434455;
     display: block;
-    padding-top: 8px;
  }
 
 /*Our team */
@@ -268,9 +266,8 @@ header {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-    justify-content: center;
-    display: flex;
     margin-bottom: 72px;
+    text-align: center;
  }
 
  .list-style-our-team {
@@ -283,9 +280,6 @@ header {
     background: #fff;
     border-radius: 0 0 4px 4px;
     width:calc((100% + 24px * 3 ) / 4);
-    padding-bottom: 32px;
-    flex-flow: wrap;
-    gap: 24px;
 }
 
 .team-descr {
@@ -300,7 +294,6 @@ header {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    padding-top: 32px;
     margin-bottom: 8px;
     
 }
@@ -358,8 +351,6 @@ header {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding-top: 32px;
-    padding-left: 16px;
     margin-bottom: 8px;
 }
 
@@ -370,7 +361,6 @@ header {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    padding-left: 16px;
 }
 
 .footer-background {
